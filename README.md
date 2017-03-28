@@ -16,3 +16,5 @@ api-api-develop:
 ```
 
 After setting this up, start your VVV instance and call `vagrant provision --provision-with site-api-api-develop`.
+
+You can then access the API-API console via `http://api-api.dev/console/` in your browser.
