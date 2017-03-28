@@ -57,6 +57,11 @@ if [[ ! -d "${VVV_PATH_TO_SITE}/public_html/console/vendor" ]]; then
 else
   noroot composer update
 fi
+if [[ ! -d "${VVV_PATH_TO_SITE}/public_html/console/node_modules" ]]; then
+  noroot npm install
+else
+  noroot npm update
+fi
 
 mkdir -p ${VVV_PATH_TO_SITE}/log
 touch ${VVV_PATH_TO_SITE}/log/error.log
