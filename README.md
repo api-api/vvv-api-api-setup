@@ -6,7 +6,7 @@ Requires VVV 2.0
 
 ## Instructions
 
-Add something like this to your `vvv-custom.yml` (if you don't have this file, duplicate and rename `vvv-config.yml` accordingly):
+Add something like this to the `sites` section of your `vvv-custom.yml` (if you don't have this file, duplicate and rename `vvv-config.yml` accordingly):
 
 ```
 api-api-develop:
