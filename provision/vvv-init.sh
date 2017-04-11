@@ -7,6 +7,7 @@ REPO_NAMES=(
   authenticator-basic
   authenticator-bearer
   authenticator-oauth1
+  authenticator-key
   authenticator-x
   authenticator-x-account
   boilerplate-for-authenticator
